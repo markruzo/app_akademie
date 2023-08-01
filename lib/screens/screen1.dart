@@ -9,7 +9,6 @@ class Screen1 extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            // Navigiere zu Screen2, wenn der Button gedrückt wird
             Navigator.pushNamed(context, '/screen2');
           },
           child: Text('Gehe zu Screen 2'),
