@@ -1,4 +1,4 @@
-# App_Akademie
+# App Akademie
 
 Ordner für Abgaben
 
@@ -14,4 +14,4 @@ Siehe:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-# app_akademie
+#
