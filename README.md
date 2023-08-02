@@ -16,7 +16,7 @@ Siehe:
 - [4.6.1 Widgets](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/4_6_1)
 - [Neuer Ordner](link zum ordner)
 
-## AAktuelle Aufgabe
+## Aktuelle Aufgabe
 
 App Screens
 
