@@ -16,4 +16,17 @@ Siehe:
 - [4.6.1 Widgets](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/4_6_1)
 - [Neuer Ordner](link zum ordner)
 
-#
+## App Screens
+
+App Screens
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/markruzo/app_akademie/blob/main/lib/task_solutions/4_6_1/Simulator%20Screenshot%20-%20iPhone%2014%20-%202023-08-01%20at%2012.11.19.png" alt="Bild 1">
+    </td>
+    <td>
+      <img src="https://github.com/markruzo/app_akademie/blob/main/lib/task_solutions/4_6_1/Simulator%20Screenshot%20-%20iPhone%2014%20-%202023-08-01%20at%2012.11.23.png" alt="Bild 2">
+    </td>
+  </tr>
+</table
