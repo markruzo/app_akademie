@@ -11,7 +11,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Custom Button'),
+          title: Text(
+            'Custom Button',
+            style: TextStyle(color: Colors.black),
+          ),
         ),
         body: Center(
           child: CustomMaterialButton(
