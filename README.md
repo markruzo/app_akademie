@@ -37,8 +37,6 @@ App Screens
       <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 11.54.13.png" alt="Bild 4">
       <p>Aufgabe 4</p>
     </td>
-
- <tr>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 12.41.28.png" alt="Bild 4">
       <p>Animated Button</p>
