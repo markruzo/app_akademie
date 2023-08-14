@@ -19,7 +19,7 @@ final ThemeData myCustomTheme = ThemeData(
   primaryColor: Colors.blue,
   hintColor: Colors.orange,
   fontFamily: 'Roboto',
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
     headline1: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
     headline2: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
     bodyText1: TextStyle(fontSize: 16),
@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Custom Theme",
           style: TextStyle(color: Colors.black),
         ),
@@ -50,10 +50,10 @@ class MyHomePage extends StatelessWidget {
               onPressed: () {},
               child: Text("Button"),
             ),
-            TextField(
+            const TextField(
               decoration: InputDecoration(labelText: "Text Field"),
             ),
-            Card(
+            const Card(
               child: Padding(
                 padding: EdgeInsets.all(100),
                 child: Text("Card"),

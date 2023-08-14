@@ -12,7 +12,7 @@ class AnimalProfileApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             'Steckbrief Lama',
             style: TextStyle(color: Colors.black),
           ),
@@ -32,27 +32,27 @@ class AnimalProfile extends StatelessWidget {
           decoration: AppStyles.coloredBoxDecoration,
           width: double.infinity,
           height: 300,
-          margin: EdgeInsets.only(
+          margin: const EdgeInsets.only(
             top: AppStyles.containerMarginTop,
             left: AppStyles.containerMarginHorizontal,
             right: AppStyles.containerMarginHorizontal,
           ),
-          padding: EdgeInsets.all(AppStyles.containerPadding),
+          padding: const EdgeInsets.all(AppStyles.containerPadding),
           alignment: Alignment.center,
-          child: Text(
+          child: const Text(
             'Foto vom Lama!',
             style: AppStyles.headingTextStyle,
           ),
         ),
-        SizedBox(height: 20),
-        Text('Name', style: AppStyles.headingTextStyle),
-        Text('Diana das Lama', style: AppStyles.contentTextStyle),
-        SizedBox(height: 10),
-        Text('Größe', style: AppStyles.headingTextStyle),
-        Text('1,90', style: AppStyles.contentTextStyle),
-        SizedBox(height: 10),
-        Text('Lieblingsessen', style: AppStyles.highlightedTextStyle),
-        Text('Gras', style: AppStyles.contentTextStyle),
+        const SizedBox(height: 20),
+        const Text('Name', style: AppStyles.headingTextStyle),
+        const Text('Diana das Lama', style: AppStyles.contentTextStyle),
+        const SizedBox(height: 10),
+        const Text('Größe', style: AppStyles.headingTextStyle),
+        const Text('1,90', style: AppStyles.contentTextStyle),
+        const SizedBox(height: 10),
+        const Text('Lieblingsessen', style: AppStyles.highlightedTextStyle),
+        const Text('Gras', style: AppStyles.contentTextStyle),
       ],
     );
   }

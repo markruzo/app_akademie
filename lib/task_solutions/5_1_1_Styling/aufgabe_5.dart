@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             'Custom Button',
             style: TextStyle(color: Colors.black),
           ),
@@ -48,7 +48,7 @@ class CustomMaterialButton extends StatelessWidget {
               color: Colors.grey.withOpacity(0.5),
               spreadRadius: 2,
               blurRadius: 5,
-              offset: Offset(0, 3),
+              offset: const Offset(0, 3),
             ),
           ],
           color: Colors.blue,
@@ -61,10 +61,10 @@ class CustomMaterialButton extends StatelessWidget {
             splashColor: Colors.white.withOpacity(0.3),
             highlightColor: Colors.transparent,
             child: Container(
-              padding: EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+              padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
               child: Text(
                 text,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
