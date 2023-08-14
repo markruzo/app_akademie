@@ -23,11 +23,20 @@ App Screens
 
 <table>
   <tr>
-    <td>
-      <img src="https://github.com/markruzo/app_akademie/blob/main/lib/task_solutions/5_1_1_Styling/Simulator%20Screenshot%20-%20iPhone%2013%20mini%20-%202023-08-14%20at%2011.30.45.png" alt="Aufgabe 2">
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 11.30.45.png" alt="Bild 1">
+      <p>Aufgabe 2</p>
     </td>
-    <td>
-      <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 11.44.23.png" alt="Aufgabe 6">
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 11.44.23.png" alt="Bild 2">
+      <p>Aufgabe 3</p>
     </td>
   </tr>
-</table
+  <tr>
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 11.54.13.png" alt="Bild 4">
+      <p>Aufgabe 4</p>
+    </td>
+ </tr>
+
+</table>
