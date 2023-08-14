@@ -43,7 +43,10 @@ class _MyScreenState extends State<MyScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Switch Color'),
+        title: const Text(
+          'Switch Color',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child: Column(

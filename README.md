@@ -48,7 +48,7 @@ App Screens
       <p>Animated Button</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 18.54.46.png" alt="Bild 4">
+      <img src="lib/task_solutions/5_1_1_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-14 at 19.09.21.png" alt="Bild 4">
       <p>Switch Color</p>
     </td>
  </tr>
