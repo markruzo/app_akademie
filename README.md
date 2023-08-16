@@ -15,6 +15,7 @@ Siehe:
 - [4.5.4 Widgets](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/4_5_4)
 - [4.6.1 Widgets](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/4_6_1)
 - [5.1.1 Styling](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/5_1_1_Styling)
+- [5.1.3 Styling](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/5_1_3_Styling)
 - [Neuer Ordner](link zum ordner)
 
 ## Aktuelle Aufgabe
