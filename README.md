@@ -39,7 +39,7 @@ App Screens
       <p>Aufgabe 4</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_1_3_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-16 at 14.14.47.png" alt="Bild 4">
+      <img src="lib/task_solutions/5_1_3_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-16 at 14.23.45.png" alt="Bild 4">
       <p>Aufgabe 5</p>
     </td>
  </tr>
