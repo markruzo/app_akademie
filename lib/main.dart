@@ -5,21 +5,23 @@ import 'package:app_akademie/screens/screen3.dart';
 // Screens Importieren
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       // Opteionen für die App
       title: 'Start',
-      home: Screen1(), // Start Screen
+      home: const Screen1(), // Start Screen
       routes: {
         // Routes für Screens
-        '/screen1': (context) => Screen1(),
-        '/screen2': (context) => Screen2(),
-        '/screen3': (context) => Screen3(),
+        '/screen1': (context) => const Screen1(),
+        '/screen2': (context) => const Screen2(),
+        '/screen3': (context) => const Screen3(),
         // Routes Hinzufügen
       },
     );

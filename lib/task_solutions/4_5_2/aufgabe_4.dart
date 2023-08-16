@@ -3,16 +3,18 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Verschachteltes Widget')),
-        body: Center(
+        appBar: AppBar(title: const Text('Verschachteltes Widget')),
+        body: const Center(
           child: MyStatelessWidget(),
         ),
       ),
@@ -21,9 +23,11 @@ class MyApp extends StatelessWidget {
 }
 
 class MyStatelessWidget extends StatelessWidget {
+  const MyStatelessWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text('Outer Stateless Widget'),
@@ -35,6 +39,8 @@ class MyStatelessWidget extends StatelessWidget {
 }
 
 class MyStatefulWidget extends StatefulWidget {
+  const MyStatefulWidget({super.key});
+
   @override
   _MyStatefulWidgetState createState() => _MyStatefulWidgetState();
 }
@@ -52,11 +58,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Inner Stateful Widget'),
+        const Text('Inner Stateful Widget'),
         Text('Counter: $counter'),
         ElevatedButton(
           onPressed: _incrementCounter,
-          child: Text('Increment'),
+          child: const Text('Increment'),
         ),
       ],
     );

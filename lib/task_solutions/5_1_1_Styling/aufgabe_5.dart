@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -34,7 +36,7 @@ class CustomMaterialButton extends StatelessWidget {
   final VoidCallback onPressed;
   final String text;
 
-  CustomMaterialButton({required this.onPressed, required this.text});
+  const CustomMaterialButton({super.key, required this.onPressed, required this.text});
 
   @override
   Widget build(BuildContext context) {

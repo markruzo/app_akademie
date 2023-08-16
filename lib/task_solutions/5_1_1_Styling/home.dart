@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'styles.dart';
 
 void main() {
-  runApp(AnimalProfileApp());
+  runApp(const AnimalProfileApp());
 }
 
 class AnimalProfileApp extends StatelessWidget {
+  const AnimalProfileApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,13 +19,15 @@ class AnimalProfileApp extends StatelessWidget {
             style: TextStyle(color: Colors.black),
           ),
         ),
-        body: AnimalProfile(),
+        body: const AnimalProfile(),
       ),
     );
   }
 }
 
 class AnimalProfile extends StatelessWidget {
+  const AnimalProfile({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(

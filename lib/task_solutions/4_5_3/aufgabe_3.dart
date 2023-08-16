@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,11 +22,13 @@ class WeatherApp extends StatelessWidget {
     weatherCondition: 'Sonnig',
   );
 
+  WeatherApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wetter App'),
+        title: const Text('Wetter App'),
       ),
       body: Container(
         color: Colors.white,
@@ -35,7 +39,7 @@ class WeatherApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Center(
+                const Center(
                   child: Text(
                     'Wetter-App',
                     style: TextStyle(
@@ -44,11 +48,11 @@ class WeatherApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Center(
                   child: Text(
                     'Aktuelles Wetter in ${weatherData.city}: ${weatherData.temperature}°C Wetter: ${weatherData.weatherCondition}',
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                 ),
               ],
@@ -60,13 +64,13 @@ class WeatherApp extends StatelessWidget {
         onPressed: () {
           print('Floating Action Button wurde geklickt!');
         },
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
+            const DrawerHeader(
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
@@ -79,15 +83,15 @@ class WeatherApp extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: Icon(Icons.cloud),
-              title: Text('Einstellungen'),
+              leading: const Icon(Icons.cloud),
+              title: const Text('Einstellungen'),
               onTap: () {
                 print('Einstellungen wurde ausgewählt.');
               },
             ),
             ListTile(
-              leading: Icon(Icons.add),
-              title: Text('Add'),
+              leading: const Icon(Icons.add),
+              title: const Text('Add'),
               onTap: () {
                 print('Hinzugefügt');
               },

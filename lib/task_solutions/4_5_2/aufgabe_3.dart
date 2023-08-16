@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class MyStatelessWidget extends StatelessWidget {
   final int counter;
 
-  MyStatelessWidget(this.counter);
+  const MyStatelessWidget(this.counter, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class MyStatelessWidget extends StatelessWidget {
         Text('Counter: $counter'),
         ElevatedButton(
           onPressed: () {},
-          child: Text('Increment'),
+          child: const Text('Increment'),
         ),
       ],
     );
@@ -20,6 +20,8 @@ class MyStatelessWidget extends StatelessWidget {
 }
 
 class MyStatefulWidget extends StatefulWidget {
+  const MyStatefulWidget({super.key});
+
   @override
   _MyStatefulWidgetState createState() => _MyStatefulWidgetState();
 }
@@ -40,7 +42,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         Text('Counter: $counter'),
         ElevatedButton(
           onPressed: _incrementCounter,
-          child: Text('Increment'),
+          child: const Text('Increment'),
         ),
       ],
     );

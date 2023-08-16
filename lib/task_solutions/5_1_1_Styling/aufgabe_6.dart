@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: myCustomTheme,
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }
@@ -20,15 +22,17 @@ final ThemeData myCustomTheme = ThemeData(
   hintColor: Colors.orange,
   fontFamily: 'Roboto',
   textTheme: const TextTheme(
-    headline1: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-    headline2: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-    bodyText1: TextStyle(fontSize: 16),
-    bodyText2: TextStyle(fontSize: 14, color: Colors.grey),
+    displayLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+    displayMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+    bodyLarge: TextStyle(fontSize: 16),
+    bodyMedium: TextStyle(fontSize: 14, color: Colors.grey),
   ),
   // Weitere Eigenschaften hier
 );
 
 class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,13 +46,13 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Headline 1", style: Theme.of(context).textTheme.headline1),
-            Text("Headline 2", style: Theme.of(context).textTheme.headline2),
-            Text("Body Text 1", style: Theme.of(context).textTheme.bodyText1),
-            Text("Body Text 2", style: Theme.of(context).textTheme.bodyText2),
+            Text("Headline 1", style: Theme.of(context).textTheme.displayLarge),
+            Text("Headline 2", style: Theme.of(context).textTheme.displayMedium),
+            Text("Body Text 1", style: Theme.of(context).textTheme.bodyLarge),
+            Text("Body Text 2", style: Theme.of(context).textTheme.bodyMedium),
             ElevatedButton(
               onPressed: () {},
-              child: Text("Button"),
+              child: const Text("Button"),
             ),
             const TextField(
               decoration: InputDecoration(labelText: "Text Field"),

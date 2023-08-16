@@ -32,12 +32,14 @@ class ProductListViewApp extends StatelessWidget {
     Colors.amber,
   ];
 
+  ProductListViewApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Produktliste'),
+          title: const Text('Produktliste'),
         ),
         body: ListView.builder(
           itemCount: products.length,
@@ -49,18 +51,18 @@ class ProductListViewApp extends StatelessWidget {
             return Container(
               color: backgroundColor,
               child: ListTile(
-                leading: Icon(Icons.shopping_cart),
+                leading: const Icon(Icons.shopping_cart),
                 title: Text(
                   product.title,
-                  style: TextStyle(color: Colors.black),
+                  style: const TextStyle(color: Colors.black),
                 ),
                 trailing: Container(
                   alignment: Alignment.centerRight,
                   width: 100,
                   child: Text(
-                    '\€${product.price.toStringAsFixed(2)}',
+                    '€${product.price.toStringAsFixed(2)}',
                     textAlign: TextAlign.right,
-                    style: TextStyle(color: Colors.black),
+                    style: const TextStyle(color: Colors.black),
                   ),
                 ),
               ),
