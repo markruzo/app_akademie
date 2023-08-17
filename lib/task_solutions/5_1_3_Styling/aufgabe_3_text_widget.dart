@@ -15,12 +15,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WidgetApp(),
+      home: const WidgetApp(),
     );
   }
 }
 
 class WidgetApp extends StatefulWidget {
+  const WidgetApp({super.key});
+
   @override
   _WidgetAppState createState() => _WidgetAppState();
 }
