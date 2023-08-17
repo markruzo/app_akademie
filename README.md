@@ -25,23 +25,30 @@ App Screens
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_1_3_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-16 at 13.22.38.png" alt="Bild 1">
+      <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 13.59.56.png" alt="Bild 1">
       <p>Aufgabe 2</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_1_3_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-16 at 13.22.59.png" alt="Bild 2">
+      <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 14.00.13.png" alt="Bild 2">
       <p>Aufgabe 3</p>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_1_3_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-16 at 13.34.43.png" alt="Bild 4">
+      <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 14.00.31.png" alt="Bild 4">
       <p>Aufgabe 4</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_1_3_Styling/Simulator Screenshot - iPhone 13 mini - 2023-08-16 at 14.23.45.png" alt="Bild 4">
+      <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 14.02.17.png" alt="Bild 4">
       <p>Aufgabe 5</p>
     </td>
+ </tr>
+ <tr>
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 14.03.58.png" alt="Bild 4">
+      <p>Aufgabe 4</p>
+    </td>
+   
  </tr>
 
 </table>
