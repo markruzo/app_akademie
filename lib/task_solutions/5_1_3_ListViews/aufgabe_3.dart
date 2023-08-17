@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Container'),
+          title: const Text('Staggered Grid View'),
         ),
         body: const ContainerPage(),
       ),
@@ -26,21 +27,15 @@ class ContainerPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView.count(
-      crossAxisCount: 2,
+    return StaggeredGridView.countBuilder(
+      crossAxisCount: 4,
+      itemCount: 12,
       mainAxisSpacing: 10.0,
       crossAxisSpacing: 10.0,
       padding: const EdgeInsets.all(10.0),
-      children: const [
-        StyledContainer(),
-        StyledContainer(),
-        StyledContainer(),
-        StyledContainer(),
-        StyledContainer(),
-        StyledContainer(),
-        StyledContainer(),
-        StyledContainer(),
-      ],
+      staggeredTileBuilder: (int index) =>
+          StaggeredTile.count(2, index.isEven ? 2 : 1),
+      itemBuilder: (BuildContext context, int index) => const StyledContainer(),
     );
   }
 }

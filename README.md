@@ -48,6 +48,10 @@ App Screens
       <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 14.03.58.png" alt="Bild 4">
       <p>Aufgabe 4</p>
     </td>
+      <td style="text-align: center;">
+      <img src="lib/task_solutions/5_1_3_ListViews/Simulator Screenshot - iPhone 13 mini - 2023-08-17 at 14.31.25.png" alt="Bild 4">
+      <p>Aufgabe 4</p>
+    </td>
    
  </tr>
 
