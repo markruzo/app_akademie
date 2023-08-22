@@ -38,7 +38,7 @@ class IndicatorScreen extends StatelessWidget {
             return loadingProgress == null
                 ? image
                 : Shimmer.fromColors(
-                    direction: ShimmerDirection.btt,
+                    // direction: ShimmerDirection.btt,
                     baseColor: Colors.white,
                     highlightColor: Colors.grey.shade100,
                     child: Container(color: Colors.white));
