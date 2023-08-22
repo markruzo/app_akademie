@@ -31,13 +31,13 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: SizedBox(
-          width: 200, // Anpassung der Breite
-          height: 200, // Anpassung der Höhe
+          width: 200,
+          height: 200,
           child: CircularProgressIndicator(
             strokeWidth: 6,
-            valueColor: const AlwaysStoppedAnimation<Color>(Colors.blue),
-            backgroundColor: Colors.grey[300],
-            value: 0.6, // null
+            valueColor: const AlwaysStoppedAnimation<Color>(Colors.black),
+            backgroundColor: Colors.grey[100],
+            value: null, // null
             semanticsLabel: 'Custom Loading Indicator',
           ),
         ),
