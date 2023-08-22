@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
           height: 200,
           child: CircularProgressIndicator(
             strokeWidth: 6,
-            valueColor: const AlwaysStoppedAnimation<Color>(Colors.black),
+            valueColor: const AlwaysStoppedAnimation<Color>(Colors.blue),
             backgroundColor: Colors.grey[100],
             value: null, // null
             semanticsLabel: 'Custom Loading Indicator',
