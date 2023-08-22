@@ -26,19 +26,33 @@ App Screens
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_3_1_images/Simulator Screenshot - iPhone 13 mini - 2023-08-21 at 11.56.49.png" alt="Bild 1">
+      <img src="lib/task_solutions/5_3_2_Indicator/Simulator Screenshot - iPhone 13 mini - 2023-08-22 at 11.26.42.png" alt="Bild 1">
       <p>Aufgabe 1</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_3_1_images/Simulator Screenshot - iPhone 13 mini - 2023-08-21 at 11.57.22.png" alt="Bild 2">
+      <img src="lib/task_solutions/5_3_2_Indicator/Simulator Screenshot - iPhone 13 mini - 2023-08-22 at 11.26.46.png" alt="Bild 2">
       <p>Aufgabe 2</p>
     </td>
   </tr>
-  <tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_3_1_images/Simulator Screenshot - iPhone 13 mini - 2023-08-21 at 12.02.46.png" alt="Bild 4">
-      <p>Aufgabe 4</p>
+      <img src="lib/task_solutions/5_3_2_Indicator/Simulator Screenshot - iPhone 13 mini - 2023-08-22 at 11.26.49.png" alt="Bild 1">
+      <p>Aufgabe 3</p>
     </td>
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_3_2_Indicator/Simulator Screenshot - iPhone 13 mini - 2023-08-22 at 11.43.18.png" alt="Bild 2">
+      <p>Aufgabe 3</p>
+    </td>
+  </tr>
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_3_2_Indicator/Simulator Screenshot - iPhone 13 mini - 2023-08-22 at 11.44.00.png" alt="Bild 1">
+      <p>Aufgabe 5</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_3_2_Indicator/Simulator Screenshot - iPhone 13 mini - 2023-08-22 at 11.55.55.png" alt="Bild 2">
+      <p>Aufgabe 6</p>
+    </td>
+  </tr>
+
 
    
  </tr>
