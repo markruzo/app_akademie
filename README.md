@@ -17,7 +17,8 @@ Siehe:
 - [5.1.1 Styling](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/5_1_1_Styling)
 - [5.1.3 Styling](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/5_1_3_Styling)
 - [5_3_2 Indicator](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/5_3_2_Indicator)
-- [Neuer Ordner](link zum ordner)
+- [5_3_3_ImagePicker](https://github.com/markruzo/app_akademie/tree/main/lib/task_solutions/5_3_3_ImagePicker)
+<!-- - [Neuer Ordner](link zum ordner) -->
 
 ## Aktuelle Aufgabe
 
