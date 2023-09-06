@@ -58,6 +58,10 @@ App Screens
       <img src="lib/task_solutions/5_4_1_Error_Handling/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 09.03.43.png" alt="Bild 1">
       <p>Image Picker</p>
     </td>
+    <td style="text-align: center;">
+      <img src="lib/task_solutions/5_4_1_Error_Handling/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 09.03.10.png" alt="Bild 1">
+      <p>Image Picker</p>
+    </td>
     </tr>
     </tr>
   </table>
