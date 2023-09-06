@@ -32,8 +32,8 @@ class Overflow extends StatelessWidget {
       body: Center(
         child: Container(
           color: Colors.blue,
-          width: 300,
-          height: 300,
+          width: 400,
+          height: 400,
           child: const FittedBox(
             fit: BoxFit.scaleDown,
             child: Text(

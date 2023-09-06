@@ -45,7 +45,7 @@ dependencies:
   loading_indicator: ^3.1.1
   percent_indicator: ^4.2.3
   flutter_launcher_icons: ^0.13.1
-  image_picker: ^1.0.2
+  image_picker: ^1.0.4
   multiple_images_picker: ^1.0.1
   flutter_staggered_grid_view: ^0.4.0
   smooth_page_indicator: ^1.1.0
@@ -60,6 +60,9 @@ dependencies:
   animated_theme_switcher: ^2.0.8
   path_provider: ^2.1.0
   path: ^1.8.3
+  auto_size_text: ^3.0.0
+  flutter_svg: ^1.1.6
+  flutter_image: ^4.1.8
 
 dev_dependencies:
   flutter_test:
@@ -96,6 +99,8 @@ flutter:
   assets:
     - assets/images/check_icon.png
     - assets/images/error_image.png
+    - lib/task_solutions/0_1_Collections/G_/Group_App/assets/grueeneblaetter.jpg
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
