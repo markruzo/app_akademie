@@ -39,7 +39,6 @@ App Screens
       <img src="lib/task_solutions/5_4_1_Error_Handling/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 09.01.21.png" alt="Bild 1">
       <p>Image Picker</p>
     </td>
-    </tr>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_4_1_Error_Handling/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 09.02.54.png" alt="Bild 1">
       <p>Image Picker</p>
@@ -49,8 +48,7 @@ App Screens
       <img src="lib/task_solutions/5_4_1_Error_Handling/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 09.02.54.png" alt="Bild 1">
       <p>Image Picker</p>
     </td>
-    </tr>
-    <td style="text-align: center;">
+<td style="text-align: center;">
       <img src="lib/task_solutions/5_4_1_Error_Handling/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 09.03.00.png" alt="Bild 1">
       <p>Image Picker</p>
     </td>
