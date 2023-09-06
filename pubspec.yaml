@@ -63,6 +63,8 @@ dependencies:
   auto_size_text: ^3.0.0
   flutter_svg: ^1.1.6
   flutter_image: ^4.1.8
+  logger: ^2.0.2
+  foundation: ^0.0.5
 
 dev_dependencies:
   flutter_test:
