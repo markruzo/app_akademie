@@ -28,20 +28,20 @@ App Screens
   <tr>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.16.48.png" alt="Bild 1">
-      <p>Image Picker</p>
+      <p>Logger</p>
     </td>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.19.14.png" alt="Bild 2">
-      <p>Image Picker</p>
+      <p>Logger</p>
     </td>
   </tr>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.42.33.png" alt="Bild 1">
-      <p>Image Picker</p>
+      <p>Logger</p>
     </td>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.42.35.png" alt="Bild 1">
-      <p>Image Picker</p>
+      <p>Logger</p>
     </td>
     </tr>
     </tr>
