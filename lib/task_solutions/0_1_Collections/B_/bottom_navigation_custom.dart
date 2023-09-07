@@ -5,7 +5,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 }
 
 class CustomNavigation extends StatefulWidget {
-  const CustomNavigation({super.key});
+  const CustomNavigation({Key? key}) : super(key: key);
 
   @override
   State<CustomNavigation> createState() => _CustomNavigationState();
@@ -27,17 +27,31 @@ class CustomNavigation extends StatefulWidget {
 class _CustomNavigationState extends State<CustomNavigation> {
   int _selectedItemIndex = 4;
 
+  final List<IconData> _icons = [
+    Icons.circle,
+    Icons.circle,
+    Icons.circle,
+    Icons.circle,
+    Icons.circle,
+  ];
+
+  final List<String> _labels = [
+    'Item 1',
+    'Item 2',
+    'Item 3',
+    'Item 4',
+    'Item 5',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: Row(
-        children: <Widget>[
-          buildNavBarItem(context, Icons.circle, 0),
-          buildNavBarItem(context, Icons.circle, 1),
-          buildNavBarItem(context, Icons.circle, 2),
-          buildNavBarItem(context, Icons.circle, 3),
-          buildNavBarItem(context, Icons.circle, 4),
-        ],
+        children: List.generate(
+          _icons.length,
+          (index) =>
+              buildNavBarItem(context, _icons[index], _labels[index], index),
+        ),
       ),
       appBar: AppBar(
         title: const Text('Custom Navigation'),
@@ -48,7 +62,8 @@ class _CustomNavigationState extends State<CustomNavigation> {
     );
   }
 
-  Widget buildNavBarItem(BuildContext context, IconData icon, int index) {
+  Widget buildNavBarItem(
+      BuildContext context, IconData icon, String label, int index) {
     return GestureDetector(
       onTap: () {
         setState(() {
@@ -72,11 +87,25 @@ class _CustomNavigationState extends State<CustomNavigation> {
                 ),
                 color: index == _selectedItemIndex ? Colors.blue : Colors.white)
             : const BoxDecoration(),
-        child: Icon(icon,
-            color: index == _selectedItemIndex
-                ? Colors.black
-                : Colors.grey.shade300,
-            size: 32),
+        child: Column(
+          children: [
+            Icon(
+              icon,
+              color: index == _selectedItemIndex
+                  ? Colors.black
+                  : Colors.grey.shade300,
+              size: 32,
+            ),
+            Text(
+              label,
+              style: TextStyle(
+                color: index == _selectedItemIndex
+                    ? Colors.black
+                    : Colors.grey.shade300,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
