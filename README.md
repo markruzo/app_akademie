@@ -28,16 +28,16 @@ App Screens
   <tr>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_5_2_Features/Simulator Screenshot - iPhone 13 mini - 2023-09-11 at 12.17.15.png" alt="Bild 1">
-      <p>Logger</p>
+      <p>Future</p>
     </td>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_5_2_Features/Simulator Screenshot - iPhone 13 mini - 2023-09-11 at 12.17.18.png" alt="Bild 2">
-      <p>Logger</p>
+      <p>Future</p>
     </td>
   </tr>
     <td style="text-align: center;">
       <img src="lib/task_solutions/5_5_2_Features/Simulator Screenshot - iPhone 13 mini - 2023-09-11 at 12.17.20.png" alt="Bild 1">
-      <p>Logger</p>
+      <p>Future</p>
     </td>
     </tr>
   </table>
