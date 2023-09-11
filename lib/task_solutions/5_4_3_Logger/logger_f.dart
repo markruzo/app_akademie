@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
 
   void _causeError(BuildContext context) {
     try {
-      int result = 1 ~/ 0;
+      1 ~/ 0;
     } catch (error) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(

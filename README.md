@@ -27,22 +27,17 @@ App Screens
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.16.48.png" alt="Bild 1">
+      <img src="lib/task_solutions/5_5_2_Features/Simulator Screenshot - iPhone 13 mini - 2023-09-11 at 12.17.15.png" alt="Bild 1">
       <p>Logger</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.19.14.png" alt="Bild 2">
+      <img src="lib/task_solutions/5_5_2_Features/Simulator Screenshot - iPhone 13 mini - 2023-09-11 at 12.17.18.png" alt="Bild 2">
       <p>Logger</p>
     </td>
   </tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.42.33.png" alt="Bild 1">
+      <img src="lib/task_solutions/5_5_2_Features/Simulator Screenshot - iPhone 13 mini - 2023-09-11 at 12.17.20.png" alt="Bild 1">
       <p>Logger</p>
     </td>
-    <td style="text-align: center;">
-      <img src="lib/task_solutions/5_4_3_Logger/Simulator Screenshot - iPhone 13 mini - 2023-09-06 at 12.42.35.png" alt="Bild 1">
-      <p>Logger</p>
-    </td>
-    </tr>
     </tr>
   </table>
