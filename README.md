@@ -22,7 +22,7 @@ Siehe:
 
 ## 5.5.2 Futures
 
-App Screens
+Lösungen
 
 <table>
   <tr>
