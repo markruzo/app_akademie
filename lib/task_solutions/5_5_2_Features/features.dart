@@ -51,47 +51,48 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Future Delayed'),
-        ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            _isLoading ? const CircularProgressIndicator() : Text(_displayText),
-            Text(
-              _errorText,
-              style: const TextStyle(color: Colors.red),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                _displayText = '';
-                _errorText = '';
-                _generateRandomNumber();
-              },
-              child: const Text('Generiere Zahl'),
-            ),
-            Slider(
-              value: _timeoutInSeconds.toDouble(),
-              min: 5,
-              max: 10,
+      appBar: AppBar(
+        title: const Text('Future Delayed'),
+      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          _isLoading ? const CircularProgressIndicator() : Text(_displayText),
+          Text(
+            _errorText,
+            style: const TextStyle(color: Colors.red),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              _displayText = '';
+              _errorText = '';
+              _generateRandomNumber();
+            },
+            child: const Text('Generiere Zahl'),
+          ),
+          Slider(
+            value: _timeoutInSeconds.toDouble(),
+            min: 5,
+            max: 10,
+            onChanged: (value) {
+              setState(() {
+                _timeoutInSeconds = value.toInt();
+              });
+            },
+            label: 'Timeout($_timeoutInSeconds Sekunden)',
+          ),
+          Slider(
+              value: _delayInSeconds.toDouble(),
+              min: 1,
+              max: 5,
               onChanged: (value) {
                 setState(() {
-                  _timeoutInSeconds = value.toInt();
+                  _delayInSeconds = value.toInt();
                 });
               },
-              label: 'Timeout($_timeoutInSeconds Sekunden)',
-            ),
-            Slider(
-                value: _delayInSeconds.toDouble(),
-                min: 1,
-                max: 5,
-                onChanged: (value) {
-                  setState(() {
-                    _delayInSeconds = value.toInt();
-                  });
-                },
-                label: 'Verzögerung ($_delayInSeconds Sekunden)'),
-          ],
-        ));
+              label: 'Verzögerung ($_delayInSeconds Sekunden)'),
+        ],
+      ),
+    );
   }
 }
