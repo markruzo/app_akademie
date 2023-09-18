@@ -2,15 +2,6 @@
 
 Ordner für Abgaben
 
-## Ordner Struktur
-
-Hier kommen alle Abgaben aus den Tasksheets.
-
-Siehe:
-
-- [Abgaben]
-<!-- - [Neuer Ordner](link zum ordner) -->
-
 ## 5.6.1 Datenbanken
 
 Lösungen
