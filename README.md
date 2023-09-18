@@ -30,7 +30,7 @@ Lösungen
 
 ## Aufgabe 1
 
-SQL-Datenbanken:
+# SQL-Datenbanken:
 
 1. Strukturierte Daten: SQL eignet sich gut für strukturierte Daten, wie sie in Unternehmensanwendungen und relationalen Systemen häufig vorkommen.
 
