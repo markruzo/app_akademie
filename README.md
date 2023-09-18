@@ -40,7 +40,7 @@ Lösungen
 
 4. Skalierbarkeit: SQL-Datenbanken sind für vertikale Skalierbarkeit geeignet, indem sie auf leistungsstärkere Hardware migrieren.
 
-NoSQL-Datenbanken:
+### NoSQL-Datenbanken:
 
 1. Unstrukturierte Daten: NoSQL eignet sich gut für unstrukturierte oder semi-strukturierte Daten, z.B. in sozialen Medien, IoT und Logdateien.
 
