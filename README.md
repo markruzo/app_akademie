@@ -42,7 +42,8 @@ Lösungen
 
 ### NoSQL-Datenbanken:
 
-1. Unstrukturierte Daten: NoSQL eignet sich gut für unstrukturierte oder semi-strukturierte Daten, z.B. in sozialen Medien, IoT und Logdateien.
+1. #### Unstrukturierte Daten:
+NoSQL eignet sich gut für unstrukturierte oder semi-strukturierte Daten, z.B. in sozialen Medien, IoT und Logdateien.
 
 2. Horizontale Skalierbarkeit: NoSQL-Datenbanken können leicht horizontal skaliert werden, um große Datenmengen und hohe Lasten zu bewältigen.
 
