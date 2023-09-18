@@ -18,21 +18,12 @@ Lösungen
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_5_2_Features/ff_2_a.png" alt="Bild 1">
-      <p>Future II</p>
+      <img src="lib/task_solutions/5_6_1_Datenbanken/Simulator Screenshot - iPhone 13 mini - 2023-09-18 at 11.14.08.png" alt="Bild 1">
+      <p>Datenbanken</p>
     </td>
     <td style="text-align: center;">
-      <img src="lib/task_solutions/5_5_2_Features/ff_2_bb.png" alt="Bild 2">
-      <p>Future II</p>
-    </td>
-  </tr>
-    <td style="text-align: center;">
-      <img src="lib/task_solutions/5_5_2_Features/ff_2_cc.png" alt="Bild 1">
-      <p>Future II</p>
-    </td>
-    <td style="text-align: center;">
-      <img src="lib/task_solutions/5_5_2_Features/ff_2_dd.png" alt="Bild 2">
-      <p>Future II</p>
+      <img src="lib/task_solutions/5_6_1_Datenbanken/Simulator Screenshot - iPhone 13 mini - 2023-09-18 at 11.14.16.png" alt="Bild 2">
+      <p>Datenbanken</p>
     </td>
   </tr>
   </table>
