@@ -21,7 +21,89 @@ Lösungen
   </tr>
   </table>
 
-## Aufgabe 1
+## Aufgaben
+
+### Hive:
+
+import 'package:hive/hive.dart';
+
+@HiveType(typeId: 1)
+class Person {
+  @HiveField(0)
+  late String name;
+
+  @HiveField(1)
+  late int age;
+}
+
+#### Hive:
+
+import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
+import 'package:path_provider/path_provider.dart' as path_provider;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final appDocumentDirectory = await path_provider.getApplicationDocumentsDirectory();
+  Hive.init(appDocumentDirectory.path);
+
+
+  Hive.registerAdapter(PersonAdapter());
+
+  runApp(MyApp());
+}
+
+#### Hive:
+
+import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
+import 'package:path_provider/path_provider.dart' as path_provider;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final appDocumentDirectory = await path_provider.getApplicationDocumentsDirectory();
+  Hive.init(appDocumentDirectory.path);
+
+
+  Hive.registerAdapter(PersonAdapter());
+
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Hive Beispiel'),
+        ),
+        body: Center(
+          child: ElevatedButton(
+            onPressed: () async {
+              final box = await Hive.openBox('myBox');
+
+            
+              final person = Person()
+                ..name = 'Max Mustermann'
+                ..age = 30;
+
+              await box.add(person);
+
+              final loadedPerson = box.get(0) as Person?;
+              print('Geladen: ${loadedPerson?.name}, ${loadedPerson?.age}');
+            },
+            child: Text('Objekt speichern und laden'),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
 
 ### SQL-Datenbanken:
 
