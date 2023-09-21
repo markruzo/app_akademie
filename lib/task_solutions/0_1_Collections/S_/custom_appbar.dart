@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: CustomAppBar(),
         body: Center(
-          child: Text("Content"),
+          child: Text('Content'),
         ),
       ),
     );
@@ -33,7 +33,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       elevation: 0,
       centerTitle: false,
       backgroundColor: const Color(0xFFFF6137),
-      title: const Text("Account"),
+      title: const Text('Account'),
       actions: [
         Padding(
           padding: const EdgeInsets.all(8.0),

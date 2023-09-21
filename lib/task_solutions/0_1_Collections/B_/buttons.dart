@@ -33,7 +33,7 @@ class _ExampleState extends State<Example> {
         child: ElevatedButton(
           child: const Text('Elevated Button'),
           onPressed: () => Fluttertoast.showToast(
-              msg: "This is a Toast message",
+              msg: 'This is a Toast message',
               toastLength: Toast.LENGTH_SHORT,
               gravity: ToastGravity.CENTER,
               timeInSecForIosWeb: 1,

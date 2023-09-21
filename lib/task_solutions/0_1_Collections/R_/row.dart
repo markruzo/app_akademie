@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Row Widget"),
+        title: const Text('Row Widget'),
       ), // AppBar
       // App body consists of single Row
       // Row consists of three children widgets
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Geeks",
+                  'Geeks',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "For",
+                  'For',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Geeks",
+                  'Geeks',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),

@@ -22,7 +22,7 @@ class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
   void _logMessage() {
-    print("Button wurde gedrückt!");
+    print('Button wurde gedrückt!');
   }
 
   @override

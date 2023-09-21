@@ -25,12 +25,12 @@ class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
   void _logMessage() {
-    logger.v("Verbose Nachricht");
-    logger.d("Debug Nachricht");
-    logger.i("Info Nachricht");
-    logger.w("Warnung Nachricht");
-    logger.e("Fehler Nachricht");
-    logger.wtf("Schwerwiegender Fehler Nachricht");
+    logger.v('Verbose Nachricht');
+    logger.d('Debug Nachricht');
+    logger.i('Info Nachricht');
+    logger.w('Warnung Nachricht');
+    logger.e('Fehler Nachricht');
+    logger.wtf('Schwerwiegender Fehler Nachricht');
   }
 
   @override

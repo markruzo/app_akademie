@@ -28,13 +28,13 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.blue[100],
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("Tab Bar"), //title of app
+          title: const Text('Tab Bar'), //title of app
           backgroundColor: Colors.blue, //background color of app bar
           elevation: 5.0, //elevation value of appbar
           bottom: TabBar(
             //tabbar at bottom of appbar
             onTap: (index) {
-              print("selected tab is $index");
+              print('selected tab is $index');
             },
             tabs: const [
               Tab(icon: Icon(Icons.home_filled)),
@@ -63,6 +63,6 @@ class HomePage extends StatelessWidget {
 
         body: const Center(
             //content body on scaffold
-            child: Text("AppBar with TabBar")));
+            child: Text('AppBar with TabBar')));
   }
 }

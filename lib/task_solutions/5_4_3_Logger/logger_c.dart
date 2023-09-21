@@ -28,8 +28,8 @@ class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
   void _logMessage() {
-    customLogger.w("Warnung Nachricht");
-    customLogger.e("Error Nachricht");
+    customLogger.w('Warnung Nachricht');
+    customLogger.e('Error Nachricht');
   }
 
   @override

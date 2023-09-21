@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Custom Theme",
+          'Custom Theme',
           style: TextStyle(color: Colors.black),
         ),
       ),
@@ -46,21 +46,21 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Headline 1", style: Theme.of(context).textTheme.displayLarge),
-            Text("Headline 2", style: Theme.of(context).textTheme.displayMedium),
-            Text("Body Text 1", style: Theme.of(context).textTheme.bodyLarge),
-            Text("Body Text 2", style: Theme.of(context).textTheme.bodyMedium),
+            Text('Headline 1', style: Theme.of(context).textTheme.displayLarge),
+            Text('Headline 2', style: Theme.of(context).textTheme.displayMedium),
+            Text('Body Text 1', style: Theme.of(context).textTheme.bodyLarge),
+            Text('Body Text 2', style: Theme.of(context).textTheme.bodyMedium),
             ElevatedButton(
               onPressed: () {},
-              child: const Text("Button"),
+              child: const Text('Button'),
             ),
             const TextField(
-              decoration: InputDecoration(labelText: "Text Field"),
+              decoration: InputDecoration(labelText: 'Text Field'),
             ),
             const Card(
               child: Padding(
                 padding: EdgeInsets.all(100),
-                child: Text("Card"),
+                child: Text('Card'),
               ),
             ),
           ],

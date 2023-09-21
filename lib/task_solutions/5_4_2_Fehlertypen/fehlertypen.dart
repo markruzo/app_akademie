@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class CustomException implements Exception {
@@ -17,25 +17,29 @@ class CustomException implements Exception {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => HomeScreen(),
-        '/error': (context) => ErrorScreen(),
+        '/': (context) => const HomeScreen(),
+        '/error': (context) => const ErrorScreen(),
       },
     );
   }
 }
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Screen'),
+        title: const Text('Home Screen'),
       ),
       body: Center(
         child: ElevatedButton(
@@ -46,7 +50,7 @@ class HomeScreen extends StatelessWidget {
               Navigator.pushNamed(context, '/error', arguments: e);
             }
           },
-          child: Text('Throw Random Exception'),
+          child: const Text('Throw Random Exception'),
         ),
       ),
     );
@@ -57,7 +61,7 @@ class HomeScreen extends StatelessWidget {
     if (random == 0) {
       throw CustomException('Dies ist eine benutzerdefinierte Exception.');
     } else if (random == 1) {
-      throw FormatException('Dies ist eine FormatException.');
+      throw const FormatException('Dies ist eine FormatException.');
     } else {
       throw Exception('Dies ist eine allgemeine Exception.');
     }
@@ -65,6 +69,8 @@ class HomeScreen extends StatelessWidget {
 }
 
 class ErrorScreen extends StatelessWidget {
+  const ErrorScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final dynamic error = ModalRoute.of(context)!.settings.arguments;
@@ -80,26 +86,26 @@ class ErrorScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Error Screen'),
+        title: const Text('Error Screen'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
+            const Text(
               'Ein Fehler ist aufgetreten:',
               style: TextStyle(fontSize: 20),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               errorMessage,
-              style: TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 16),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text('Zurück zum Start'),
+              child: const Text('Zurück zum Start'),
             ),
           ],
         ),

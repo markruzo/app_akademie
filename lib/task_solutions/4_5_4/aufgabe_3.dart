@@ -95,7 +95,7 @@ class MyWidget extends StatelessWidget {
             height: 100,
             child: const Center(
               child: Text(
-                "E",
+                'E',
                 style: TextStyle(fontSize: 24, color: Colors.white),
               ),
             ),
@@ -119,7 +119,7 @@ class MyWidget extends StatelessWidget {
               // width: 100,
               child: const Center(
                 child: Text(
-                  "G",
+                  'G',
                   style: TextStyle(fontSize: 24, color: Colors.white),
                 ),
               ),
@@ -135,7 +135,7 @@ class MyWidget extends StatelessWidget {
                   height: 100,
                   child: const Center(
                     child: Text(
-                      "H",
+                      'H',
                       style: TextStyle(fontSize: 24, color: Colors.white),
                     ),
                   ),
@@ -148,7 +148,7 @@ class MyWidget extends StatelessWidget {
                   height: 100,
                   child: const Center(
                     child: Text(
-                      "I",
+                      'I',
                       style: TextStyle(fontSize: 24, color: Colors.white),
                     ),
                   ),

@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         //     onPressed: () {},
         //   ),
         // ],
-        title: const Text("Column Widget"),
+        title: const Text('Column Widget'),
       ), // AppBar
       // App body consists of single Column
       // Column consists of three children widgets
@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  "Column 1",
+                  'Column 1',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  "Column 2",
+                  'Column 2',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  "Column 3",
+                  'Column 3',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),

@@ -10,7 +10,7 @@ class ImageAvatar extends StatefulWidget {
 }
 
 class _ImageAvatarState extends State<ImageAvatar> {
-  String image = "";
+  String image = '';
 
   Future pickImage() async {
     final tempImage = await ImagePicker().pickImage(source: ImageSource.camera);

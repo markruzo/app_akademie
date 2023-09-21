@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Image Picker"),
+        title: const Text('Image Picker'),
       ),
       body: Column(
         children: <Widget>[
@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                     ),
-                    child: const Text("Camera"),
+                    child: const Text('Camera'),
                   ),
                 ),
                 const SizedBox(width: 20),
@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                     ),
-                    child: const Text("File"),
+                    child: const Text('File'),
                   ),
                 ),
               ],
